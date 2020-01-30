@@ -1,5 +1,5 @@
 {
-  "name": "rollup-tutorial",
+  "name": "test_rollup",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -22,5 +22,8 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-terser": "^5.2.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
