@@ -1,6 +1,7 @@
 {
   "name": "rollup-tutorial",
   "version": "1.0.0",
+  "main": "dist/index.js",
   "scripts": {
     "prepublishOnly": "npm run release",
     "release": "npm run build:dev && npm run build:prod",
